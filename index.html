@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forky Order Form</title>
+	<link rel="stylesheet" type="text/css" href="SURNAME_IMAGES_SECTION/stylesheet.css"/>
+</head>
+<body>
+	<div id="nav">
+	<p>FORKY</p>
+		<ul>
+			<li><a style="background-color: #A8201A; color: white;">Order Now</a></li>
+			<li><a>Branches</a></li>
+			<li><a>About</a></li>
+			<li><a>Home</a></li>
+		</ul>
+	<br>
+	</div>
+	<div id="content">
+	<br><br><br><br><br><br>	
+		<h1>Forky Order Form</h1>
+		<table>
+			<thead>
+			<tr>
+				<th colspan="2">Your Information</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>
+				<label style="font-family: 'century gothic';" for="fullname">Fullname:</label>
+      
+		<input class="textForm" type="text" id="fullname" name="fullname" required><br>
+
+		<label  style="font-family: 'century gothic';"  for="address">Complete Address:</label>
+		<textarea class="textForm" id="address" name="address" required></textarea><br>
+
+      <label  style="font-family: 'century gothic';"  for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+
+      <label  style="font-family: 'century gothic';"  for="email">Email Address:</label>
+      <input class="textForm" type="email" id="email" name="email" required><br>
+
+      <label   style="font-family: 'century gothic';"  for="description">Additional Informatiom:</label>
+      <textarea class="textForm" id="description" name="description" placeholder="Input here additional instructions to the driver on how to get to you."></textarea><br>
+    </form>
+				</td>
+			</tr>
+			</tbody>
+		</table>
+		
+		<br><br><br><br>	
+		<h1>Forky Menu</h1>
+		<table>
+			<thead>
+			<tr>
+				<th colspan="2">Burger Options</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td>
+			<form>
+      <h2>Burgers</h2>
+      <label for="single-patty">Single Patty:</label>
+      <input type="radio" id="single-patty" name="patty-type" value="single-patty">
+      <br>
+
+      <label for="double-patty">Double Patty:</label>
+      <input type="radio" id="double-patty" name="patty-type" value="double-patty">
+      <br><br>
+
+      <label for="with-cheese">With Cheese:</label>
+      <input type="checkbox" id="with-cheese" name="with-cheese" value="with-cheese">
+      <br>
+
+      <label for="coleslaw">Coleslaw:</label>
+      <input type="checkbox" id="coleslaw" name="coleslaw" value="coleslaw">
+      <br>
+
+      <label for="tomato">Tomato:</label>
+      <input type="checkbox" id="tomato" name="tomato" value="tomato">
+      <br>
+
+      <label for="onion">Onion:</label>
+      <input type="checkbox" id="onion" name="onion" value="onion">
+      <br>
+
+      <label for="cucumber">Cucumber:</label>
+      <input type="checkbox" id="cucumber" name="cucumber" value="cucumber">
+      <br>
+
+      <label for="bacon">Bacon:</label>
+      <input type="checkbox" id="bacon" name="bacon" value="bacon">
+      <br><br>
+
+      <label for="bun-type">Choice of Bun:</label>
+      <select id="bun-type" name="bun-type">
+        <option value="white-bun">White Bun</option>
+        <option value="wheat-bun">Wheat Bun</option>
+        <option value="honey-oat">Honey Oat</option>
+        <option value="sugar-free">Sugar-Free</option>
+      </select>
+      <br>
+
+      <label for="burger-quantity">Quantity:</label>
+      <input type="number" id="burger-quantity" name="burger-quantity" min="1" max="10" value="1">
+      <br>
+	  </form>
+	  </td>
+	  </tr>
+	  <tbody>
+	  </table>
+	  <div id="borgir">
+	<img src="SURNAME_IMAGES_SECTION/borger.png"/>
+	</div>
+	<table>
+			<thead>
+			<tr>
+				<th colspan="2">Pasta Options</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td>
+			<form>
+			<h2>Pasta</h2>
+      <label for="sauce-type">Sauce:</label>
+      <select id  ="sauce-type" name="sauce-type">
+    <option value="carbonara">Carbonara</option>
+    <option value="pesto">Pesto</option>
+    <option value="spaghetti">Spaghetti</option>
+    <option value="extra-cheese">Extra Cheese</option>
+    <option value="extra-sauce">Extra Sauce</option>
+	<option value="vegetarian">Vegetarian</option>
+    <option value="sea-food">Seafood</option>
+  </select>
+  <br>
+
+  <label for="pasta-quantity">Quantity:</label>
+  <input type="number" id="pasta-quantity" name="pasta-quantity" min="1" max="10" value="1">
+  <br>
+  </form>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <div id="pastugh">
+	<img src="SURNAME_IMAGES_SECTION/pastugh.png"/>
+	</div>
+	<br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br>
+	<table>
+			<thead>
+			<tr>
+				<th colspan="2">Fries Options</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td>
+			<form>
+			 <h2>Fries</h2>
+  <label for="fries-size">Size:</label>
+  <select id="fries-size" name="fries-size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+  </select>
+  <br>
+
+  <label for="fries-flavor">Flavor:</label>
+  <select id="fries-flavor" name="fries-flavor">
+    <option value="bbq">BBQ</option>
+    <option value="cheese">Cheese</option>
+    <option value="sour-cream">Sour Cream</option>
+  </select>
+  <br>
+
+  <label for="fries-quantity">Quantity:</label>
+  <input type="number" id="fries-quantity" name="fries-quantity" min="1" max="10" value="1">
+  <br>
+  </form>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <div id="fwies">
+	<img src="SURNAME_IMAGES_SECTION/fwies2.png"/>
+	</div>
+	
+	<table>
+			<thead>
+			<tr>
+				<th colspan="2">Drink Options</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			<td>
+			<form>
+			<h2>Drinks</h2>
+  <label for="drink-type">Drink:</label>
+  <select id="drink-type" name="drink-type">
+    <option value="cola">Coke</option>
+    <option value="lemonade">Pineapple</option>
+    <option value="orange-juice">Orange Juice</option>
+    <option value="iced-tea">Iced Tea</option>
+	<option value="iced-tea">Coffee</option>
+  </select>
+  <br>
+
+  <label for="drink-size">Size:</label>
+  <select id="drink-size" name="drink-size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+  </select>
+  <br>
+
+  <label for="drink-quantity">Quantity:</label>
+  <input type="number" id="drink-quantity" name="drink-quantity" min="1" max="10" value="1">
+  <br>
+ </form>
+  </td>
+  </tr>
+  </tbody>
+  </table>
+  <div id="cawk">
+	<img src="SURNAME_IMAGES_SECTION/cawk.png"/>
+	</div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<table>
+			<tbody>
+			<tr>
+			<td>
+			<form>
+			<h2>Feedback</h2>
+  <label for="feedback">How can we improve our service?</label>
+  <textarea style="background-color: #f5f5f5;"class="textForm" id="feedback" name="feedback"></textarea>
+  <br>
+
+  <h2>Delivery</h2>
+  <label for="delivery-type">Delivery or Pick-up:</label>
+  <select id="delivery-type" name="delivery-type">
+    <option value="delivery">Delivery</option>
+    <option value="pick-up">Pick-up</option>
+  </select>
+  <br>
+
+  <input type="submit" value="Submit Forms">
+  <input type="reset" value="Clear">
+</form>
+			</td>
+			</tr>
+			
+			</tbody>
+		</table>
+<!--
+
+  <h2>Feedback</h2>
+  <label for="feedback">How can we improve our service?</label>
+  <textarea style="background-color: #f5f5f5;"class="textForm" id="feedback" name="feedback"></textarea>
+  <br>
+
+  <h2>Delivery</h2>
+  <label for="delivery-type">Delivery or Pick-up:</label>
+  <select id="delivery-type" name="delivery-type">
+    <option value="delivery">Delivery</option>
+    <option value="pick-up">Pick-up</option>
+  </select>
+  <br>
+
+  <input type="submit" value="Submit Form">
+  <input type="reset" value="Clear Form">
+</form>
+			</td>
+			</tr>
+			
+			</tbody>
+		</table>
+	</div>
+	<!--
+	
+	-->
+</body>
+</html>

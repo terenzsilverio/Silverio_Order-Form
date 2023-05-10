@@ -1,0 +1,278 @@
+ body {
+	background-image: url('order-form-bg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	overflow-x: hidden;
+ }
+ 
+ #nav {
+	margin: -1.5em -.6em 0 0;
+	padding: 0;
+	top: 0;
+	font-family: "century gothic";
+	float: right;
+	width: 102%;
+	background-color: #FFC72C;
+}
+
+#nav ul {
+	list-style-type: none;
+}
+
+#nav li {
+	display: inline;
+	float: right;
+}
+
+#nav li a {
+	display: block;
+	text-align: center;
+	padding: 1em 1em;
+	text-decoration: none;
+	transition: transform .7s ease;
+	color: black;
+	
+}
+
+#nav a:link {
+	color: #08201A;
+}
+
+#nav a:hover {
+	background-color: #f7bb14
+}
+
+#nav p {
+	font-family: impact;
+	font-size: 2em;
+	float: left;
+	margin: .7em 0 0 .7em;
+}
+
+#content {
+	background-color: #f5f5f5;
+	width: 65em;
+	height: 320em;
+	margin: auto;
+	
+}
+
+#logo {
+	width: 20em;
+	height: 20em;
+}
+
+#content h1 {
+	margin: 0em auto;
+	font-family: impact;
+	font-weight: normal;
+	font-size: 6em;
+	color: #A8201A;
+	
+}
+
+#content table {
+	border-radius: 10px;
+  border: 5px solid red;
+  margin: 10px auto;
+  width: 40em;
+  border-collapse: collapse;
+  
+}
+
+#content td, th {
+  padding: 15px;
+}
+
+#content thead tr {
+  background-color: #FFC72C;
+  font-size: 1.30em;
+  font-family: 'century gothic';
+}
+
+#bun-type, #burger-quantity, #sauce-type, #pasta-quantity, #fries-size, #fries-flavor, #fries-quantity, #drink-type, #drink-size, #drink-quantity, #delivery-type{
+  font-family: 'century gothic';
+  color: black;
+  font-weight: bold;
+}
+ 
+option {
+  font-family: 'century gothic';
+  color: black;
+}
+
+form {
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+#imgpic {
+	margin: 0 0 0 5em;
+}
+
+h1, h2{
+  font-family: 'century gothic';
+  text-align: center;
+  color: #A8201A;
+}
+
+.title {
+  font-family: 'century gothic';
+  text-align: center;
+  color: #9B2915;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #333;
+  font-family: 'century gothic';
+}
+
+input[type="text"],
+input[type="email"], input[type="tel"],
+textarea,
+select {
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #white;
+  
+}
+
+input[type="number"] {
+  width: 80px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+textarea {
+  height: 100px;
+  resize:none;
+
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  font-family: 'century gothic';
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover{
+  background-color: green;
+}
+input[type="reset"]:hover {
+  background-color: red;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+fieldset {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+legend {
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.textForm{
+  padding: 10px;
+  margin-left: 0px;
+}
+
+.title{
+  font-family: 'century gothic';
+  font-size:50px;
+  font-weight: thick;
+  margin-left:0px;
+  margin-right:0px;
+  transition: 0.3s;
+}
+#borgir img {
+	width: 10em;
+	height: 13em;
+}
+#borgir{
+	position: sticky;
+	top: 4em;
+}
+#pastugh img {
+	width: 9em;
+	height: 15em;
+}
+#pastugh{
+	float: right;
+	position: sticky;
+	top: 15em;
+}
+#fwies img {
+	width: 10em;
+	height: 13em;
+}
+#fwies{
+	position: sticky;
+	top: 12em;
+}
+#cawk img {
+	width: 9em;
+	height: 15em;
+}
+#cawk{
+	float: right;
+	position: sticky;
+	top: 25em;
+	transform: rotate(-6deg);
+}
